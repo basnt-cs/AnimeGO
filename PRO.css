@@ -1,0 +1,111 @@
+header{
+background-color:black;
+width:16%;
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 5px ;
+ z-index: 2;
+ top: 0px;
+ right: 0px;
+ left: 0px;
+}
+
+.back{
+   
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.8em;
+ 
+}
+
+.navigation a{
+color: aliceblue;
+font-weight: 300;
+padding-right: 30px;
+}
+
+.navigation a:hover{
+    color: blue;
+}
+ .rectangle {
+   width: 800px;
+   height: 3800px;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: absolute;
+   top: 0px;
+left:23%; 
+   z-index: 1; /* Set a higher z-index to ensure it's above the image */
+
+
+h1 {
+ text-align: center;
+font-size: 3em;
+font-weight: bold;
+background-color:white;
+color : black
+
+}
+
+h2 {
+ text-align: center;
+font-size: 2em;
+font-weight: bold;
+background-color:Black;
+color : white;
+padding : 20px;
+margin : 50px;
+
+}
+h3 {
+ text-align: center;
+font-size: 1.7em;
+font-weight: bold;
+background-color:#3C6478;
+color : white
+padding : 20px;
+margin : 100px;
+
+}
+p {
+margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+font-size: 1em;
+ text-align: center;
+line-height : 1.5;
+color : white
+
+}
+div img {
+ padding-left: 300px;
+ padding-right: 10px; 
+width: 20%; 
+height: 20%;
+
+}
+
+ footer {
+    background-color: black;
+    color: white;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2; 
+text-align: center;
+}
+     footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: blue;
+        }
+
+    

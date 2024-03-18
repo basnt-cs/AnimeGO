@@ -1,0 +1,121 @@
+header{
+background-color:black;
+width:100%;
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 10px ;
+ z-index: 2;
+}
+
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.8em;
+ 
+}
+
+.navigation a{
+color: aliceblue;
+font-weight: 300;
+padding-right: 30px;
+}
+
+.navigation a:hover{
+    color: blue;
+}
+
+    .rectangle {
+      width: 200px;
+      height: 780px;
+      background-color: rgba(0, 0, 0, 0.65);
+      position: absolute;
+      top: 0px; 
+      left: 50px; 
+     z-index: 1;  /* Set a higher z-index to ensure it's above the image */
+
+    }
+
+    .rectangle h1 {
+      color: white;
+      text-align: center;
+      font-family: Monaco;
+      margin-top: 50px;
+    }
+
+    .rectangle p {
+      color: white;
+      text-align: center;
+      font-family: cursive;
+      margin-top: 50px;
+    }
+
+    h2 {
+      color: white;
+      background-color: white;
+    }
+
+    .bottom-image {
+      width: 200px; 
+      height: 200px; 
+      position: absolute;
+      bottom: 30px; 
+      left: 0px; 
+      transition: transform 0.3s ease;
+
+    }
+
+    .bottom-image:hover {
+       transform :scale(1.5); 
+    }
+
+.additional-images {
+ position: fixed; 
+  top: 50px; 
+  left: 400px;    
+  display: none;
+  text-align: center;
+
+
+    }
+.cB{
+border-radius : 50% ;
+background-color : black ;
+padding : 5px ;
+}
+
+.additional-images img {
+  width: 500px;
+  height: 300px;
+  margin: 5px;
+  opacity: 0;
+  transition: opacity 2s ease, transform 0.3s ease;
+}
+
+.additional-images.fade-in img {
+  opacity: 1;
+}
+
+.additional-images img:hover {
+  transform: scale(1.2); /* Enlarge the image on hover */
+}
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+        }
+        #taskBar {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+
+        }
+        #taskBar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+
+        }
